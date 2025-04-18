@@ -1,4 +1,4 @@
-require('dotenv').config();  // Load environment variables from .env
+import('dotenv').config();  // Load environment variables from .env
 const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
 
