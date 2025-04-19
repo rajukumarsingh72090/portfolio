@@ -1,4 +1,4 @@
-name: Deploy to InfinityFree
+name: Deploy to InfinityFree via FTP
 
 on:
   push:
@@ -6,29 +6,29 @@ on:
       - main
 
 jobs:
-  deploy:
+  ftp-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build Vite project
+      - name: Build project
         run: npm run build
 
-      - name: Deploy to InfinityFree via FTP
-        uses: sebastianpopp/ftp-deploy-action@v1.0.0
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          ftp-server: ftp://your-ftp-server
-          ftp-username: your-ftp-username
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist
-          remote-dir: /htdocs
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist/
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
