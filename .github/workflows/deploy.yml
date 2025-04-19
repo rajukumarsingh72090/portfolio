@@ -13,13 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Build Project
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - run: npm install
-      - run: npm run build
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Vite project
+        run: npm run build
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -29,5 +32,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }}/
+          server-dir: /htdocs/
           local-dir: ./dist
