@@ -21,8 +21,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: List project directory before build
+        run: ls -la
+
       - name: Build Vite project
         run: npm run build
+
+      - name: List project directory after build
+        run: ls -la dist  # This should show the dist folder if build was successful
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
