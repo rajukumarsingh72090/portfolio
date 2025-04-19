@@ -21,22 +21,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: List project directory before build
-        run: ls -la
-
       - name: Build Vite project
         run: npm run build
 
       - name: List project directory after build
-        run: ls -la dist  # This should show the dist folder if build was successful
+        run: ls -la dist  # Verify that dist folder is created
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_HOST }}       # Ensure this is correctly set in your GitHub secrets
+          username: ${{ secrets.FTP_USER }}     # Ensure this is correctly set in your GitHub secrets
+          password: ${{ secrets.FTP_PASSWORD }} # Ensure this is correctly set in your GitHub secrets
           port: 21
           protocol: ftp
-          server-dir: /htdocs/
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}  # Ensure this is correctly set in your GitHub secrets
           local-dir: ./dist
