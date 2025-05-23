@@ -1,8 +1,28 @@
 import React from 'react'
+import Profile from "../../assets/home.jpg"
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from "react-icons/fa";
+import "./home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+   <section className="home section grid">
+    <img src={Profile} alt='' className='home__img'/>
+
+    <div className="home__container">
+      <div className="home__data">
+        <h1 className="home__title">
+          <span>I'm Raju Kumar Singh</span> A software developer
+        </h1>
+
+        <p className="home__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit qui, iure beatae harum quae, ullam repudiandae provident dolorum, modi ad explicabo vel quo ab. Sit sint nulla in quaerat ab?
+        </p>
+
+        <Link to='/about' className='button'> More about me{' '} <span className='button__icon'><FaArrowRight/></span> </Link>
+      </div>
+    </div>
+   </section>
   )
 }
 
