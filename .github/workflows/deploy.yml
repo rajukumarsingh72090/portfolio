@@ -36,4 +36,4 @@ jobs:
           port: 21
           protocol: ftp
           server-dir: ${{ secrets.FTP_REMOTE_DIR }}  # Ensure this is correctly set in your GitHub secrets
-          local-dir: ./dist
+          local-dir: ./dist/
