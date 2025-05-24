@@ -9,7 +9,7 @@ const Home = () => {
    <section className="home section grid">
     <img src={Profile} alt='' className='home__img'/>
 
-    <div className="home__container">
+    <div className="home__content">
       <div className="home__data">
         <h1 className="home__title">
           <span>I'm Raju Kumar Singh</span> A software developer
@@ -22,6 +22,8 @@ const Home = () => {
         <Link to='/about' className='button'> More about me{' '} <span className='button__icon'><FaArrowRight/></span> </Link>
       </div>
     </div>
+    
+    <div className="color__block"></div>
    </section>
   )
 }
