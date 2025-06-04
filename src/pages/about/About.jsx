@@ -3,6 +3,9 @@ import Info from '../../components/Info'
 import Stat from '../../components/Stat'
 import { FaDownload } from 'react-icons/fa'
 import Resume from '../../assets/raju_resume.pdf'
+import Skills from '../../components/Skills'  
+import { resume } from '../../Data'
+import "./about.css"
 
 const About = () => {
   return (
@@ -26,6 +29,29 @@ const About = () => {
 
           <div className="stats grid">
             <Stat/>
+          </div>
+        </div>
+      </section>
+
+      <div className="separator"></div>
+
+      <section className="skills">
+        <h3 className="section__subtitle subtitle__center"> My skills</h3>
+        <div className="skills__container grid">
+          <Skills />
+        </div>
+      </section>
+
+      <div className="separator"></div>
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">
+          Experience & Education 
+        </h3>
+
+        <div className="resume__container grid">
+          <div className="resume__data">
+
           </div>
         </div>
       </section>

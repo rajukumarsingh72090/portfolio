@@ -96,3 +96,73 @@ export const stats = [
         title: 'certificate <br/> obtain'
     }
 ]
+
+export const skills = [
+    {
+        id:1,
+        title: 'Htmls',
+        percentage: '25'
+    },
+    {
+        id:2,
+        title: 'javascript',
+        percentage: '89'
+    },
+    {
+        id:3,
+        title: 'Css',
+        percentage: '70'
+    },    {
+        id:4,
+        title: 'Htmls',
+        percentage: '25'
+    },
+    {
+        id:5,
+        title: 'Htmls',
+        percentage: '25'
+    },
+    {
+        id:6,
+        title: 'Htmls',
+        percentage: '25'
+    },
+    {
+        id:7,
+        title: 'Htmls',
+        percentage: '25'
+    },
+    {
+        id:8,
+        title: 'Htmls',
+        percentage: '25'
+    },
+
+];
+
+export const resume = [
+    {
+        id:1,
+        categorey: 'experience',
+        icon: <FaBriefcase/>,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+    {
+        id:2,
+        categorey: 'experience',
+        icon: <FaBriefcase/>,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+    {
+        id:2,
+        categorey: 'experience',
+        icon: <FaBriefcase/>,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+]
