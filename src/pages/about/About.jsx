@@ -5,6 +5,7 @@ import { FaDownload } from 'react-icons/fa'
 import Resume from '../../assets/raju_resume.pdf'
 import Skills from '../../components/Skills'  
 import { resume } from '../../Data'
+import ResumItem from '../../components/ResumItem'
 import "./about.css"
 
 const About = () => {
@@ -51,7 +52,19 @@ const About = () => {
 
         <div className="resume__container grid">
           <div className="resume__data">
+            {resume.map((val) =>{
+              if(val.categorey === 'experience'){
+                return <ResumItem key={val.id} {...val}/>
+              }
+            })}
+          </div>
 
+          <div className="resume__data">
+            {resume.map((val) =>{
+              if(val.categorey === 'education'){
+                return <ResumItem key={val.id} {...val}/>
+              }
+            })}
           </div>
         </div>
       </section>

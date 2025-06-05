@@ -158,9 +158,33 @@ export const resume = [
         desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
     },
     {
-        id:2,
+        id:3,
         categorey: 'experience',
         icon: <FaBriefcase/>,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+    {
+        id:4,
+        categorey: 'education',
+        icon: <FaGraduationCap />,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+    {
+        id:5,
+        categorey: 'education',
+        icon: <FaGraduationCap />,
+        year: '2018 - Present',
+        title: 'Web developer <span> Enavato </span>',
+        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+    {
+        id:6,
+        categorey: 'education',
+        icon: <FaGraduationCap />,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
         desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
