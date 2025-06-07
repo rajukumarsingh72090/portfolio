@@ -53,7 +53,7 @@ const About = () => {
         <div className="resume__container grid">
           <div className="resume__data">
             {resume.map((val) =>{
-              if(val.categorey === 'experience'){
+              if(val.category === 'experience'){
                 return <ResumItem key={val.id} {...val}/>
               }
             })}
@@ -61,7 +61,7 @@ const About = () => {
 
           <div className="resume__data">
             {resume.map((val) =>{
-              if(val.categorey === 'education'){
+              if(val.category === 'education'){
                 return <ResumItem key={val.id} {...val}/>
               }
             })}

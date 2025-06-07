@@ -1,8 +1,7 @@
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-
-
+import work1 from '../src/assets/work1.jpeg'
 
 export const links = [
     {
@@ -143,7 +142,7 @@ export const skills = [
 export const resume = [
     {
         id:1,
-        categorey: 'experience',
+        category: 'experience',
         icon: <FaBriefcase/>,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
@@ -151,7 +150,7 @@ export const resume = [
     },
     {
         id:2,
-        categorey: 'experience',
+        category: 'experience',
         icon: <FaBriefcase/>,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
@@ -159,7 +158,7 @@ export const resume = [
     },
     {
         id:3,
-        categorey: 'experience',
+        category: 'experience',
         icon: <FaBriefcase/>,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
@@ -167,7 +166,7 @@ export const resume = [
     },
     {
         id:4,
-        categorey: 'education',
+        category: 'education',
         icon: <FaGraduationCap />,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
@@ -175,7 +174,7 @@ export const resume = [
     },
     {
         id:5,
-        categorey: 'education',
+        category: 'education',
         icon: <FaGraduationCap />,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
@@ -183,10 +182,123 @@ export const resume = [
     },
     {
         id:6,
-        categorey: 'education',
+        category: 'education',
         icon: <FaGraduationCap />,
         year: '2018 - Present',
         title: 'Web developer <span> Enavato </span>',
         desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+    },
+]
+
+export const portfolio = [
+    {
+        id:1,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+        ]
+    },
+    {
+        id:2,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+        ]
+    },
+    {
+        id:3,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+        ]
+    },
+    {
+        id:4,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+        ]
+    },
+    {
+        id:5,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+        ]
     },
 ]
