@@ -1,5 +1,6 @@
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import { RxExternalLink } from "react-icons/rx";
 
 import work1 from '../src/assets/work1.jpeg'
 
@@ -211,6 +212,11 @@ export const portfolio = [
                 title: 'Language',
                 desc: 'adobe photoshop',
             },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
+            },
         ]
     },
     {
@@ -232,6 +238,11 @@ export const portfolio = [
                 icon: <FaCode/>,
                 title: 'Language',
                 desc: 'adobe photoshop',
+            },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
             },
         ]
     },
@@ -255,6 +266,11 @@ export const portfolio = [
                 title: 'Language',
                 desc: 'adobe photoshop',
             },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
+            },
         ]
     },
     {
@@ -276,6 +292,11 @@ export const portfolio = [
                 icon: <FaCode/>,
                 title: 'Language',
                 desc: 'adobe photoshop',
+            },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
             },
         ]
     },
@@ -299,6 +320,38 @@ export const portfolio = [
                 title: 'Language',
                 desc: 'adobe photoshop',
             },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
+            },
+        ]
+    },    {
+        id:6,
+        img: work1,
+        title: 'photo editing',
+        details: [
+            {
+                icon: <FiFileText/>,
+                title: 'project',
+                desc: 'photo',
+            },
+            {
+                icon: <FiUser/>,
+                title: 'Client',
+                desc: 'Drible',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language',
+                desc: 'adobe photoshop',
+            },
+            {
+                icon: <RxExternalLink />,
+                title: 'preview',
+                desc: <a href="https://www.example.com">go to link</a>,
+            },
         ]
     },
+
 ]
