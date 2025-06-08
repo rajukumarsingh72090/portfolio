@@ -3,6 +3,7 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { RxExternalLink } from "react-icons/rx";
 
 import work1 from '../src/assets/work1.jpeg'
+import Theme1 from '../src/assets/Theme1.png'
 
 export const links = [
     {
@@ -326,7 +327,8 @@ export const portfolio = [
                 desc: <a href="https://www.example.com">go to link</a>,
             },
         ]
-    },    {
+    }, 
+    {
         id:6,
         img: work1,
         title: 'photo editing',
@@ -354,4 +356,58 @@ export const portfolio = [
         ]
     },
 
+]
+
+
+export const themes = [
+    {
+        id: 1,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 2,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 3,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 4,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 5,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 6,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 7,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 8,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 9,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
+    {
+        id: 10,
+        img: Theme1,
+        color: 'hsl(252, 35% 51%)'
+    },
 ]
