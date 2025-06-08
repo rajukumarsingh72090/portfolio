@@ -4,6 +4,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 import work1 from '../src/assets/work1.jpeg'
 import Theme1 from '../src/assets/Theme1.png'
+import Theme2 from '../src/assets/Theme2.png'
 
 export const links = [
     {
@@ -367,13 +368,13 @@ export const themes = [
     },
     {
         id: 2,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
+        img: Theme2,
+        color: 'hsl(4, 93%% 54%)'
     },
     {
         id: 3,
         img: Theme1,
-        color: 'hsl(252, 35% 51%)'
+        color: 'hsl(271, 76% 53%)'
     },
     {
         id: 4,
