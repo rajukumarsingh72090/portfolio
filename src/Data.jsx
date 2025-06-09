@@ -3,8 +3,8 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { RxExternalLink } from "react-icons/rx";
 
 import work1 from '../src/assets/work1.jpeg'
-import Theme1 from '../src/assets/Theme1.png'
-import Theme2 from '../src/assets/Theme2.png'
+// import Theme1 from '../src/assets/Theme1.png'
+// import Theme2 from '../src/assets/Theme2.png'
 
 export const links = [
     {
@@ -360,55 +360,55 @@ export const portfolio = [
 ]
 
 
-export const themes = [
-    {
-        id: 1,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 2,
-        img: Theme2,
-        color: 'hsl(4, 93%% 54%)'
-    },
-    {
-        id: 3,
-        img: Theme1,
-        color: 'hsl(271, 76% 53%)'
-    },
-    {
-        id: 4,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 5,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 6,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 7,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 8,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 9,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-    {
-        id: 10,
-        img: Theme1,
-        color: 'hsl(252, 35% 51%)'
-    },
-]
+// export const themes = [
+//     {
+//         id: 1,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 2,
+//         img: Theme2,
+//         color: 'hsl(4, 93%% 54%)'
+//     },
+//     {
+//         id: 3,
+//         img: Theme1,
+//         color: 'hsl(271, 76% 53%)'
+//     },
+//     {
+//         id: 4,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 5,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 6,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 7,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 8,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 9,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+//     {
+//         id: 10,
+//         img: Theme1,
+//         color: 'hsl(252, 35% 51%)'
+//     },
+// ]
