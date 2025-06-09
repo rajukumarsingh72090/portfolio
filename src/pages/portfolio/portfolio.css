@@ -1,6 +1,8 @@
 
 .portfolio__container{
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 5%;
+    padding-right: 10%;
 }
 
 
