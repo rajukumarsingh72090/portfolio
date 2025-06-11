@@ -1,8 +1,12 @@
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { RxExternalLink } from "react-icons/rx";
+import { TbSourceCode } from "react-icons/tb";
 
-import work1 from '../src/assets/work1.jpeg'
+import work1 from '../src/assets/randomBackgroundChanges.png'
+import work2 from '../src/assets/image_editor.png'
+import work3 from '../src/assets/crudOperation.png'
+
 // import Theme1 from '../src/assets/Theme1.png'
 // import Theme2 from '../src/assets/Theme2.png'
 
@@ -190,166 +194,84 @@ export const portfolio = [
     {
         id:1,
         img: work1,
-        title: 'photo editing',
+        title: 'Random Background Changes',
         details: [
             {
                 icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
+                title: 'project: ',
+                desc: 'Random Background changes',
             },
             {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
+                icon: <TbSourceCode/>,
+                title: 'Source code: ',
+                desc: <a href="https://github.com/rajukumarsingh72090/javaScript-projects/tree/main/random-background-changes">Github</a>,
             },
             {
                 icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
+                title: 'Language: ',
+                desc: 'Javascript',
             },
             {
                 icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
+                title: 'visit to view: ',
+                desc: <a href="https://clinquant-praline-d982b6.netlify.app/">website</a>,
             },
         ]
     },
     {
         id:2,
-        img: work1,
-        title: 'photo editing',
+        img: work2,
+        title: 'Basic Image Editor',
         details: [
             {
                 icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
+                title: 'project: ',
+                desc: 'Basic Image Editor',
             },
             {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
+                icon: <TbSourceCode/>,
+                title: 'Source code: ',
+                desc: <a href="https://github.com/rajukumarsingh72090/javaScript-projects/tree/main/image_editor">Github</a>,
             },
             {
                 icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
+                title: 'Language: ',
+                desc: 'Javascript',
             },
             {
                 icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
+                title: 'visit to view: ',
+                desc: <a href="https://zingy-salmiakki-fc9920.netlify.app/">website</a>,
             },
         ]
     },
     {
         id:3,
-        img: work1,
-        title: 'photo editing',
+        img: work3,
+        title: 'Basic Crud Operation',
         details: [
             {
                 icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
+                title: 'project: ',
+                desc: 'Basic Crud Operation',
             },
             {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
+                icon: <TbSourceCode/>,
+                title: 'Source code: ',
+                desc: <a href="https://github.com/rajukumarsingh72090/react-projects/tree/main/crud_react">Github</a>,
             },
             {
                 icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
+                title: 'Language: ',
+                desc: 'Reactjs',
             },
             {
                 icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
+                title: 'Visit to view: ',
+                desc: <a href="https://extraordinary-brioche-f5a3e9.netlify.app/">website</a>,
             },
         ]
     },
-    {
-        id:4,
-        img: work1,
-        title: 'photo editing',
-        details: [
-            {
-                icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
-            },
-            {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
-            },
-            {
-                icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
-            },
-            {
-                icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
-            },
-        ]
-    },
-    {
-        id:5,
-        img: work1,
-        title: 'photo editing',
-        details: [
-            {
-                icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
-            },
-            {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
-            },
-            {
-                icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
-            },
-            {
-                icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
-            },
-        ]
-    }, 
-    {
-        id:6,
-        img: work1,
-        title: 'photo editing',
-        details: [
-            {
-                icon: <FiFileText/>,
-                title: 'project',
-                desc: 'photo',
-            },
-            {
-                icon: <FiUser/>,
-                title: 'Client',
-                desc: 'Drible',
-            },
-            {
-                icon: <FaCode/>,
-                title: 'Language',
-                desc: 'adobe photoshop',
-            },
-            {
-                icon: <RxExternalLink />,
-                title: 'preview',
-                desc: <a href="https://www.example.com">go to link</a>,
-            },
-        ]
-    },
-
 ]
 
 
