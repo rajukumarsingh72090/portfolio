@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
 
         <p className="home__description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit qui, iure beatae harum quae, ullam repudiandae provident dolorum, modi ad explicabo vel quo ab. Sit sint nulla in quaerat ab?
+          I am a self taught software developer especialized in javascript and their libraries and framework. I love to explore and learn new technology.
         </p>
 
         <Link to='/about' className='button'> More about me{' '} <span className='button__icon'><FaArrowRight/></span> </Link>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaEnvelope, FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaDribbble, FaEnvelopeOpen} from 'react-icons/fa'
+import {FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaInstagram, FaEnvelopeOpen} from 'react-icons/fa'
 
 import { FiSend } from 'react-icons/fi'
 import './contact.css'
@@ -16,14 +16,14 @@ const Contact = () => {
         <div className="contact__data">
           <h3 className="contact__title">Feel free to reach out</h3>
 
-          <p className="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a quasi est architecto officia at voluptate mollitia quidem dolorem ea reiciendis aliquam accusamus sit, sed impedit dolor eaque, voluptates culpa.</p>
+          <p className="contact__description">If you like my resume and want to assign any work please feel free to reach out to me.</p>
 
           <div className="contact__info">
             <div className="info__item">
               <FaEnvelopeOpen className='info__icon'/>
 
               <div>
-                <span className="info__title">Mail me</span>
+                <span className="info__title">Mail me :</span>
                 <h4 className="info__desc">rajukukmarsingh72090@gmail.com</h4>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className='info__icon'/>
 
               <div>
-                <span className="info__title">call me</span>
+                <span className="info__title">call me :</span>
                 <h4 className="info__desc">+91 7209078494</h4>
               </div>
             </div>
@@ -40,13 +40,13 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="htttps://facebook.com" className="contact__social-link"><FaFacebookF/></a>
+            <a href="https://www.facebook.com/profile.php?id=61574002713772" className="contact__social-link"><FaFacebookF/></a>
 
-            <a href="htttps://facebook.com" className="contact__social-link"><FaTwitter/></a>
+            <a href="https://x.com/RajuKumarS69018" className="contact__social-link"><FaTwitter/></a>
 
-            <a href="htttps://facebook.com" className="contact__social-link"><FaYoutube/></a>
+            <a href="https://www.youtube.com/@instacreatorvidoes" className="contact__social-link"><FaYoutube/></a>
 
-            <a href="htttps://facebook.com" className="contact__social-link"><FaDribbble/></a>
+            <a href="https://www.instagram.com/techexplorarguy/" className="contact__social-link"><FaInstagram /></a>
           </div>
         </div>
 

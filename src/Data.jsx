@@ -102,42 +102,42 @@ export const stats = [
 export const skills = [
     {
         id:1,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'HTML',
+        percentage: '50'
     },
     {
         id:2,
-        title: 'javascript',
-        percentage: '89'
+        title: 'CSS',
+        percentage: '30'
     },
     {
         id:3,
-        title: 'Css',
+        title: 'Javascript',
         percentage: '70'
     },    {
         id:4,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'Reactjs',
+        percentage: '90'
     },
     {
         id:5,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'Nodejs',
+        percentage: '80'
     },
     {
         id:6,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'Nextjs',
+        percentage: '40'
     },
     {
         id:7,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'React Native',
+        percentage: '90'
     },
     {
         id:8,
-        title: 'Htmls',
-        percentage: '25'
+        title: 'Mongodb',
+        percentage: '20'
     },
 
 ];
@@ -147,50 +147,43 @@ export const resume = [
         id:1,
         category: 'experience',
         icon: <FaBriefcase/>,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+        year: 'July 2024 - December 2024',
+        title: 'IBMS operator <span> EXL private limited </span>',
+        desc: 'Experienced in managing and maintaining Access Control Systems (ACS), Face Recognition Systems (FRS), and CCTV surveillance to ensure employee monitoring and workplace security. Responsible for tracking employee attendance, generating daily and weekly reports, and updating access and recognition systems based on staffing changes such as new hires, separations, and departmental movements. Also skilled in managing security and technician teams to ensure smooth building operations and safety compliance.'
     },
     {
         id:2,
         category: 'experience',
         icon: <FaBriefcase/>,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+        year: 'April 2024 - June 2024',
+        title: 'Digital Marketing <span> Hetal Shah Exclusive accomodation </span>',
+        desc: 'To generate leads effectively, I implemented a comprehensive marketing strategy that included social media advertising, online listings, and search engine optimization. First, I ran targeted Facebook advertisements to attract potential clients and direct them to the business’s Facebook page, which helped increase engagement and lead conversion. Simultaneously, I posted detailed listings of the Paying Guest (PG) services on major real estate websites such as MagicBricks, 99acres, Housing.com, OLX, and other relevant platforms to maximize online visibility and reach a broader audience. Additionally, I applied search engine optimization (SEO) techniques to improve the website’s ranking on search engines, which drove more organic traffic and generated high-quality leads over time. This integrated approach successfully contributed to both immediate results and sustained growth in client acquisition.'
     },
     {
         id:3,
         category: 'experience',
         icon: <FaBriefcase/>,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+        year: 'December 2023 - March 2024',
+        title: 'Wordpress website Make <span> RoyalITSolution </span>',
+        desc: 'Made and managed two blogging website mytechnicalhindi.com and royalhow.com.'
     },
     {
         id:4,
         category: 'education',
         icon: <FaGraduationCap />,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+        year: '2020 - 2022',
+        title: 'Intermediate <span> Ram Krishna College </span>',
+        desc: 'completed my intermediate in science from Ram Krishna college from Saran, Bihar'
     },
     {
         id:5,
         category: 'education',
         icon: <FaGraduationCap />,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
+        year: '2018 - 2020',
+        title: 'Matric <span> MuktaPushPanjali School </span>',
+        desc: 'Completed my basic elementry school from MuktaPushPanjali School from gota, Ahmedabad, Gujarat'
     },
-    {
-        id:6,
-        category: 'education',
-        icon: <FaGraduationCap />,
-        year: '2018 - Present',
-        title: 'Web developer <span> Enavato </span>',
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos blanditiis dolorum quasi nisi soluta placeat nostrum sint facere fuga. Omnis ad obcaecati, accusamus officia sed cumque assumenda inventore ducimus ut?'
-    },
+
 ]
 
 export const portfolio = [
