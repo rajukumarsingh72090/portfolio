@@ -93,12 +93,12 @@ export const stats = [
     },
     {
         id: 3,
-        no: '11+',
+        no: '2+',
         title: 'Happy <br/> customers'
     },
     {
         id: 4,
-        no: '4+',
+        no: '2+',
         title: 'certificate <br/> obtain'
     }
 ]
